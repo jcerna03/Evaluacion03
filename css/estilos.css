@@ -4,22 +4,40 @@
 }
 
 body {
-  background-color: yellow;
+  background-color: red;
   font-family: 'Dancing Script', cursive;
 }
 
-#contenedor {
-  width: 1200px;
-  margin: 0 auto;
+header>nav {
+  background-color: #ffe9c0 !important;
+  width: 100%;
 }
 
-header{
-  	background-color:#5b7989;
-    width: 100%;
+header {
+  background-color: white;
 }
+
+img {
+  width: 400px;
+  height: 200px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
 .logo-img {
   width: 120px;
+  height: 100px;
 }
+
 .redes-sociales>.img-social {
-  width: 35px;
+  width: 35px !important;
+  height: 35px !important;
+}
+
+[class*="col-"] {
+  min-height: 100px;
 }
