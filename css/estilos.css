@@ -3,8 +3,11 @@
   box-sizing: border-box;
 }
 
+input[type="text"] {
+  width: 100%;
+}
+
 body {
-  background-color: red;
   font-family: 'Dancing Script', cursive;
 }
 
@@ -21,7 +24,24 @@ img {
   width: 100%;
   height: 100%;
 }
-i{font-size:35px}
+
+i.coment {
+  font-size: 35px
+}
+
+.padding {
+  background-color: #f0f0f0;
+  padding: 20px;
+
+}
+
+.padding-2 {
+  background-color: #bddcea;
+
+}
+.no-margin{
+    margin: 0;
+}
 .clearfix::after {
   content: "";
   clear: both;
@@ -33,14 +53,14 @@ i{font-size:35px}
   height: 100px;
 }
 
-.redes-sociales>.img-social {
+.redes-sociales>a>img.img-social {
   width: 35px !important;
   height: 35px !important;
 }
 
-[class*="col-"] {
+/*[class*="col-"] {
   min-height: 100px;
-}
+}*/
 
 .section {
   padding: 25px;
