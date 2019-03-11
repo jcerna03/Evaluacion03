@@ -11,6 +11,12 @@ body {
   font-family: 'Dancing Script', cursive;
 }
 
+body.background {
+  background-image: url('../img/fondo.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 header>nav {
   background-color: #ffe9c0 !important;
   width: 100%;
@@ -25,23 +31,61 @@ img {
   height: 100%;
 }
 
+.card {
+  background-color: #f5f5dc94 !important;
+}
+
+.callout {
+  background-color: #f5f5dc94 !important;
+}
+
+.titulo {
+  font-family: monospace;
+  font-weight: 600;
+  font-variant: small-caps;
+  text-decoration: underline;
+}
+
+.subtitulo {
+  font-style: italic;
+}
+
 i.coment {
   font-size: 35px
+}
+
+.hollow {
+  border: 1px solid #17c9dca1;
+  border-radius: 115px;
+  background-color: #cbe7eaa1 !important;
+}
+
+.flex {
+  display: flex !important;
+  flex-flow: row !important;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 82.5rem;
 }
 
 .padding {
   background-color: #f0f0f0;
   padding: 20px;
-
 }
 
 .padding-2 {
   background-color: #bddcea;
+}
 
+.no-margin {
+  margin: 0;
 }
-.no-margin{
-    margin: 0;
-}
+
 .clearfix::after {
   content: "";
   clear: both;
@@ -49,7 +93,7 @@ i.coment {
 }
 
 .logo-img {
-  width: 120px;
+  width: 100px;
   height: 100px;
 }
 
@@ -61,7 +105,10 @@ i.coment {
 /*[class*="col-"] {
   min-height: 100px;
 }*/
+.pista {
+  border-bottom: white solid 1px;
+}
 
 .section {
-  padding: 25px;
+  padding: 15px;
 }
