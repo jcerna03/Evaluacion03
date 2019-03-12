@@ -1,8 +1,53 @@
-nav{
+nav {
   background-color: #7495d082;
   height: 100px;
 }
 
 .logo-img {
-  width:150px;
+  width: 150px;
+}
+.title{
+font-size:25px;
+
+}
+
+.left-sidebar {
+  position: fixed;
+  top: 30%;
+  z-index: 999;
+}
+
+.left-sidebar ul {
+  border: none;
+}
+
+.left-sidebar i.fa {
+  padding: 8px;
+  font.size: 25px;
+  color: #444;
+}
+
+.left-sidebar li {
+  width: 80px;
+  transition: 5s;
+}
+
+.left-siderbar li:nth-child(1) {
+  background: #3b5999;
+}
+
+.left-siderbar li:nth-child(2) {
+  background: #55acee;
+}
+
+.left-siderbar li:nth-child(3) {
+  background: #dd4bb3;
+}
+
+.left-siderbar li:nth-child(4) {
+  background: #bd081c;
+}
+
+.left-siderbar li:nth-child(5) {
+  background: #0077b5;
 }
