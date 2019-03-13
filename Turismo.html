@@ -14,21 +14,21 @@
   <title>Turismo</title>
 </head>
 
-<body>
+<body class="background">
 
   <div class="left-sidebar">
     <ul class="collection">
       <li class="collection-item">
-        <i class="fab fa-facebook-square"></i>
+        <a href="#"> <i class="fab fa-facebook-square"></i></a>
       </li>
       <li class="collection-item">
-        <i class="fab fa-twitter-square"></i>
+        <a href="#"><i class="fab fa-twitter-square"></i></a>
       </li>
       <li class="collection-item">
-        <i class="fab fa-instagram"></i>
+        <a href="#"> <i class="fab fa-instagram"></i></a>
       </li>
       <li class="collection-item">
-        <i class="fab fa-youtube-square"></i>
+        <a href="#"> <i class="fab fa-youtube-square"></i></a>
       </li>
     </ul>
   </div>
@@ -36,17 +36,26 @@
 
   <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container">
-      <div class="col l7 m6 s12">
-        <a href="#" class="brand-logo card">
-          <img src="img/viaje1.jpg" alt="ShareUrCode" class="logo-img" />
-        </a>
+      <div class="row">
+        <div class="col l4 m6 s12">
+          <a href="#" class="brand-logo card">
+            <img src="img/viaje1.jpg" alt="ShareUrCode" class="logo-img" />
+          </a>
+          <div class="col offset-l6 hide-on-med-and-down">
+            <label class="text-primary"><em>Creando mi Propio Camino...</em></label>
+          </div>
+        </div>
+
+
+        <ul class="right hide-on-med-and-down">
+          <li><a class="waves-effect waves-light btn-small">Inicio</a></li>
+          <li><a class="waves-effect waves-light btn-small">Estuve en ..</a></li>
+          <li><a class="waves-effect waves-light btn-small">Mejores viajes</a></li>
+          <li><a class="waves-effect waves-light btn-small">Recomendaciones</a></li>
+        </ul>
       </div>
-      <ul class="right hide-on-med-and-down">
-        <li><a class="waves-effect waves-light btn-small">Inicio</a></li>
-        <li><a class="waves-effect waves-light btn-small">Estuve en ..</a></li>
-        <li><a class="waves-effect waves-light btn-small">Mejores viajes</a></li>
-        <li><a class="waves-effect waves-light btn-small">Recomendaciones</a></li>
-      </ul>
+
+
       <ul id="nav-mobile" class="sidenav">
         <li><a class="waves-effect waves-light">Inicio</a></li>
         <li><a class="waves-effect waves-light">Estuve en Todos Lados</a></li>
@@ -90,46 +99,138 @@
       </div>
     </section>
 
-    <section class="light-green">
+    <section>
       <div class="row">
         <div class="col l8">
           <div class="card-panel">
-            <div class="card">
-              <img src="img/viaje3.jpg" class="responsive-img col l3" alt="">
-              <p class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo
-                consequat.
-                Duis aute irure dolor in reprehenderit in
-                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                officia deserunt mollit anim id est laborum.
+            <div class="card padding">
+              <img src="img/viaje7.jpg" class="responsive-img col l3" alt="">
+              <div class="chip">
+                12/03/2019
+              </div>
+              <div class="chip">
+                Madrid, España
+              </div>
+
+              <p class="light">
+                España fue el cuarto país del mundo en número de turistas extranjeros en 2010, con 52,7 millones de turistas anuales, siendo superado por Francia, Estados Unidos de América y China.6​
               </p>
-              <p class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo
-                consequat.
-                Duis aute irure dolor in reprehenderit in voluptate
-                velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in
-                culpa qui officia deserunt mollit anim id est laborum.
+              <p class="light">
+                El turismo le reportó a España 52.525 millones de dólares durante el año 2010, lo que la situó en segunda posición en ingresos económicos, por detrás de Estados Unidos, que ingresó 103.500 millones de dólares en ese mismo periodo, y
+                por delante de Francia (46.300), China (45.800) e Italia (38.800).
               </p>
+              <p class="light">
+                España recibió un total de 56,17 millones de turistas extranjeros durante el año 2011, un 6,6% más de los registrados en el mismo período del año anterior, según datos del Ministerio de Industria, Energía y Turismo, el 80% de ellos
+                llegó por vía aérea.9​
+              </p>
+              <p class="light">
+                De estos, el 84,3% vinieron a España por razones de ocio o vacaciones, el 7,2% por motivos de trabajo o negocios, el 4,8% por motivos personales, y el resto por otros motivos no especificados. La cantidad de turistas ha crecido
+                notoriamente desde 1950, pero no varían sus nacionalidades. La mayor parte procedían (y proceden) de Europa occidental y septentrional, y suelen ser alemanes, británicos, franceses, italianos y portugueses.
+              </p>
+            </div>
+            <div class="padding">
+              <div class="row">
+                <label class="title"> Deja un comentario:</label>
+              </div>
+              <div class="row">
+
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Nombre:</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Correo Electrónico:</label>
+                </div>
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Comentario:</label>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+
+
+
+
+
+
+          <div class="card-panel">
+            <div class="card padding">
+              <img src="img/viaje8.jpg" class="responsive-img col l3" alt="">
+              <div class="chip">
+                12/03/2019
+              </div>
+              <div class="chip">
+                Paris, Francia
+              </div>
+              <p class="light">
+                Francia, el país de la baguette, de la moda y el glamour, del champán y del Tour de Francia. Francia son los museos, el c’est la vie, París y el Moulin Rouge, los cabarets, el jazz de Miles Davies, John Coltrane y Charlie Parker. La
+                Francia de Edith Piaf y del belga Jacques Brel; la de la ilustración y del colonialismo, del centralismo de Luís XIV y de Jules Ferry, del pacifismo de Jean Jaurès y de la beligerancia de Napoleón. Francia es la resistencia de
+                Clemenceau, Leon Blum, Mendès-France y De Gaulle que luchaba contra la Francia de la colaboración de Vichy y Petain. Francia de cultura y de acogida, de crisol y de exclusión; Francia de naturaleza protegida, de gusto y respeto, de
+                la ecología de Yann-Artus Bertrand y también de energía nuclear. Francia europea de Monnet y Delors, Francia extrema de… Francia, uno de los 27 países que forman la Unión Europea, un país como otro cualquiera. Similar a los demás
+                pero, al mismo tiempo, particular como cada uno de ellos.
+              </p>
+              <p class="light">
+                Un país que como todos, y ninguno se escapa, es un crisol de gentes venidas de todo el planeta, antes o después, más tarde o más pronto. Un lugar que, por casualidades y esfuerzos de toda índole, se ha conformado en lo que hoy es. Un
+                país, como el resto, en constante evolución, con conflictos entre un campo protegido y habitado, y las ciudades, donde los problemas derivados de la pobreza parecen causar fracturas. Esas grietas, erróneamente llamadas étnicas o
+                comunitarias, hacen sin embargo de esos elementos u orígenes, banderas para peligrosos consecuencias.
+              </p>
+              <p class="light">
+                Un país confrontado al dilema de la mundialización, de la cual sus filósofos y políticos han sido siempre buenos adalides. Francia hoy se resiste a perder una especificidad cultural de la que se ha hecho gala y, una vez más, bandera,
+                esta vez para marcar, tal vez, una superioridad dentro del igualitarismo, una especie de primus inter pares.
+              </p>
+
+            </div>
+            <div class="padding">
+              <div class="row">
+                <label class="title"> Deja un comentario:</label>
+              </div>
+              <div class="row">
+
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Nombre:</label>
+                </div>
+                <div class="input-field col s6">
+                  <input id="last_name" type="text" class="validate">
+                  <label for="last_name">Correo Electrónico:</label>
+                </div>
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">Comentario:</label>
+                </div>
+              </div>
+
             </div>
 
           </div>
 
 
+
         </div>
+
+
+
         <div class="col l4">
           <div class="card-panel">
-            <div class="card center-align">
+            <div class="card center-align padding">
 
               <img src="img/autor.png" class="circle logo-img " alt="">
               <h5>Jorge Cerna</h5>
               <p class="light">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo
-                consequat.
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
+                Bachiller certificado en MTA, responsable, proactivo, hábil e íntegro.
+                Capaz de adecuarme efectivamente en distinto ámbito laboral para cumplir funciones de manera eficiente desarrollándome
+                como un profesional impecable.
+              </p>
+              <p class="light">
+                Entusiasmado en formar parte de soluciones innovadoras utilizando la tecnología de
+                información como soporte a las estrategias de la gestión empresarial. Asimismo, desarrollar adecuadamente los procesos de
+                negocio para alcanzar objetivos organizacionales a corto y largo plazo.
+              </p>
             </div>
           </div>
         </div>
@@ -137,26 +238,7 @@
 
 
     </section>
-    <section>
-      <div class="row">
-        <label class="title"> Deja un comentario:</label>
-      </div>
-      <div class="row">
 
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Nombre:</label>
-        </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Correo Electrónico:</label>
-        </div>
-        <div class="input-field col s12">
-          <textarea id="textarea1" class="materialize-textarea"></textarea>
-          <label for="textarea1">Comentario:</label>
-        </div>
-      </div>
-    </section>
 
   </div>
 

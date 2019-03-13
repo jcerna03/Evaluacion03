@@ -56,9 +56,19 @@ i.coment {
 
 .hollow {
   border: 1px solid #17c9dca1;
-  border-radius: 115px;
   background-color: #cbe7eaa1 !important;
+  border-radius: 115px;
 }
+
+.hollow2 {
+  border-top: 1px solid #d917dc57;
+  border-bottom: 1px solid #d917dc57;
+
+}
+.hollow2 > a {
+  color: #b717ba !important;
+}
+
 
 .flex {
   display: flex !important;
@@ -74,7 +84,6 @@ i.coment {
 }
 
 .padding {
-  background-color: #f0f0f0;
   padding: 20px;
 }
 

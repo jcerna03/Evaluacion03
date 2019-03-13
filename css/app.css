@@ -2,7 +2,11 @@ nav {
   background-color: #7495d082;
   height: 100px;
 }
-
+body.background {
+  background-image: url('../img/imagen9.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .logo-img {
   width: 150px;
 }
@@ -50,4 +54,7 @@ font-size:25px;
 
 .left-siderbar li:nth-child(5) {
   background: #0077b5;
+}
+.padding {
+  padding: 20px;
 }
